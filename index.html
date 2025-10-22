@@ -1,0 +1,310 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Lexend:wght@100..900&display=swap" rel="stylesheet">
+	<link rel="icon" type="image/x-icon" href="webicon.png">
+	
+	<title>Personal Portfolio</title>
+	
+
+
+	<style>
+
+
+		header,footer{
+			background-color: #6eace6;
+			padding: 2px;
+			width: 100%
+
+
+		}
+		body{
+			padding: 0px;
+			margin:0px;
+			font-family: 'Lexend', sans-serif;
+			font-weight: 500;
+			box-sizing: border-box;
+			
+			overflow-x: hidden;
+
+
+		}
+
+		header{
+			display: flex;
+			align-items: center;
+			justify-content: space-around;
+		}
+		ul {
+  			list-style: square;
+  			padding: 0;
+  			margin: 0;
+		}
+
+		.menulist{
+  			display: inline-block;
+  			margin-right: 15px;
+		}
+
+		.herotext{
+			text-align: right;
+			position: relative;
+			left: 140px;
+		}
+		#detail{
+			font-size: 25px;
+		}
+		.heroimg{
+			background-image: url(glare.JPG);
+			height:50%;
+			background-position:left;
+  			background-repeat: no-repeat;
+  			background-size: 890px 600px;
+  			position: relative;
+  			padding: 200px;
+		}
+		.body{
+			margin: 50px;
+		}
+		.heroholder{
+			background-color: #dfe5f0;
+			background-size:100%;
+		}
+
+		.main{
+			margin:50px;
+			background-color: gr;
+
+		}
+		h2{
+			font-size: 30px;
+		}
+		#intext2{
+			font-size:17px;
+		}
+		.skillholder{
+			display:flex;
+			align-items: left;
+			justify-content: left;
+		}
+		.skills{
+			position:relative;
+			left:50px;
+			font-size: 17px;
+		}
+		.imageholder{
+			border-style:solid;
+			border-width: 2px;
+		}
+
+		.htext{
+			position: relative;
+			left: -150px;
+		}
+		.gallery{
+			background-color: black;
+			margin: 0px;
+			padding: 50px;
+			width: 100vw;
+			height: 100vh;
+			position: relative;
+			left: 0px;
+		}
+
+		label{
+            font-weight: bold;
+            margin: 10px 0 5px;
+            display: block;
+        }
+        input,select,textarea,button{
+            width: 200%;
+            padding: 8px;
+            margin-bottom: 15px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+            font-size:14px;
+        }
+        .option-label{
+            display:inline-flex;
+            align-items:center;
+            margin-right: 10px;
+            font-weight:normal;
+        }
+        .option-label input{
+            margin-right: 5px;
+            width: auto;
+        }
+        input[type="submit"], input[type="reset"], button{
+            background: #6eace6;
+            color: black;
+            cursor: pointer;
+            border:none;
+            transition: background 0.3s;
+
+        }
+        input[type="submit"]:hover, input[type="reset"]:hover, button:hover{
+            background:#5d7f9e;
+        }
+        .formbuttons{
+            display: flex;
+            justify-content: space-between;
+            gap:10px;
+        }
+        .formholder{
+            padding: 20px 30px;
+            width: 40%;
+            max-width: 450%;
+            color:black;
+        }
+        a{
+        	text-decoration: none;
+        	color: black;
+        }
+
+
+
+		
+	</style>
+</head>
+<body>
+	<header id="home">
+		<div class="htext">
+			<img src="lowgo.png" width="50" height="50">
+		</div>
+		<div class=menu>
+			<ul>
+				<li class="menulist"><a href="#home">Home</a></li>
+				<li class="menulist"><a href="#about">About Me</a></li>
+				<li class="menulist"><a href="#gallery">Gallery</a></li>
+				<li class="menulist"><a href="#form">Contact Me</a></li>
+			</ul>
+		</div>
+	</header>
+
+	<div class=heroholder>
+		<div class="heroimg">
+			<div class="herotext">
+				<h1>Good day. I'm Damien Francisco</h1>
+				<p id="detail">This is my portfolio.</p>
+			</div>		
+		</div>
+	</div>
+
+	<div class="main" id=about>
+
+		<div class="intro">
+			<h2 id="intext">This is me.</h2>
+			<p id=intext2>Hello! I am grade 9 and I study at OBMC. I do photography and arts. As you can see, I also do web design (i made this.)</p>
+		</div>
+
+		<div class=skills>
+
+			<h2>My Skillset</h2>
+
+			<div class=skillholder>
+				<div class="imageholder"> 
+					<img src="tamamoooo.PNG" width="200" height="200" style="border-bottom-style: solid; border-box:1px;">
+					<p style="position: relative; left: 65px;">Artistry</p>
+				</div>
+				<div class="skills">
+					<p style="font-size: 20px;">Why I took up Artistry.</p>
+					<ul> 
+						<li>Artistry helps me express myself without words</li> 
+						<li>It acts as a stress reliever</li> 
+						<li>This skill also gives career opportunities</li> 
+						<li>I was inspired by the people around me.</li>
+					<ul>
+				</div>
+			</div>
+			<br>
+
+			<div class=skillholder>
+				<div class="imageholder"> 
+					<img src="airplane.JPG" width="200" height="300" style="border-bottom-style: solid; border-box:1px;">
+					<p style="position: relative; left: 45px;">Photography</p>
+				</div>
+				<div class="skills">
+					<p style="font-size: 20px;">Why I do Photography.</p>
+					<ul> 
+						<li>My dad does photography as a hobby</li> 
+						<li>Photography allows me to capture moments and even emotions</li> 
+						<li>It lets me show people things i've seen while travelling</li>
+						<li>It helps me see things in another light, everything cannot be seen in only one angle.</li> 
+					</ul>
+				</div>
+			</div>				 			
+		</div>	
+	</div>
+	
+	<div class="gallery" id=gallery>
+			<div class="artgal">
+				<h2 style="color: white;">artgallery.</h2>
+				<img src="oguri.png"width="300" height="300">
+				<img src="yuuri.png"width="300" height="300">
+				<img src="lando...png"width="300" height="300">
+				<img src="cat.png"width="300" height="300">
+			</div>			
+			<div class="photgal">
+				<h2 style="color: white;">photogallery.</h2>
+				<img src="sunset.png"width="300" height="300">
+				<img src="yuyu.png"width="300" height="300">
+				<img src="ants.png"width="300" height="300">
+				<img src="backyard.png"width="300" height="300">				
+			</div>
+		</div>
+		<div class="formholder" id=form>
+			<h1>Before you go!</h1>
+    <p>Please answer this quick survey :></p>
+        <form>
+
+             <label for="username">Username</label>
+            <input type="text" id="username" placeholder="Username" >
+
+            <label for="email">Email</label>
+            <input type="text" id="email" placeholder="example.email@gmail.com" >
+
+            <label>How'd you find me?</label>
+            <label class="option-label"><input type="radio" id="option1" name="radio" value="fb">Facebook</label>
+            <label class="option-label"><input type="radio" id="option2" name="radio" value="insta">Instagram</label>
+            <label class="option-label"><input type="radio" id="option3" name="radio" value="conn">Connections</label>
+
+            <label>What hobbies of mine were you interested in?</label>
+            <label class="option-label"><input type="checkbox" id=box1 name="checkbox" value="skill1">Photography</label>
+            <label class="option-label"><input type="checkbox" id=box2 name="checkbox" value="skill2">Artistry</label>
+            <label class="option-label"><input type="checkbox" id=box3 name="checkbox" value="skill3">Web Design</label>
+            <br>
+            
+            <label for="rating">Rate this Webpage!</label>
+            <select id="rating">
+                <option value="rat1">1</option>
+                <option value="rat2">2</option>
+                <option value="rat3">3</option>
+                <option value="rat4">4</option>
+                <option value="rat5">5</option>
+
+            </select>
+            <br>
+            
+            <label for=textbox>Send me a message! </label>
+            <textarea id="textbox" name="textbox" rows="6" placeholder="Insert message here!"></textarea>
+
+
+
+
+            <div class="formbuttons">
+                <input type="submit" value="Submit">
+                <input type="reset" value="Reset">
+            </div>
+        </form>
+			
+		</div>
+
+
+</body>
+</html>
